@@ -1,0 +1,50 @@
+.app{
+    height: 100%;
+    overflow: auto;
+
+    display: grid;
+    grid-template-rows: 50px auto 30px;
+}
+.app .header{
+    background: linear-gradient(90deg,rgb(198, 154, 161),rgb(169, 204, 180));
+    color: white;
+    line-height: 50px;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.app .footer{
+    background: linear-gradient(90deg, rgb(198, 154, 161),rgb(169, 204, 180));
+    color: white;
+    line-height: 30px;
+    font-size: 8pt;
+    padding-left: 10px;
+}
+.app .section{
+    overflow: auto;
+}
+.app .section table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.app .section table thead{
+    background: rgb(179, 198, 218);
+    color: white;
+}
+.app .section table thead tr,
+.app .section table tbody tr
+{
+    height: 35px;
+}
+.app .section table tbody tr:nth-child(even){
+    background: whitesmoke;
+}
+.app .section table th,
+.app .section table td{
+    border: 1px solid gray;
+    padding: 0 5px;
+}
+.app .section table tbody tr td img{
+    height: 20px;
+
+}
